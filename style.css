@@ -19,3 +19,22 @@ main {
     background-size: cover;
     background-position: bottom;
 }
+
+.logo-box {
+    width: 100%;
+    margin-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Norse Bold';
+    color: white;
+    font-size: 2rem;
+}
+
+.logo-box img {
+    height: 20vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
