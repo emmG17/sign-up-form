@@ -135,3 +135,48 @@ fieldset {
     text-decoration: none;
     color: inherit;
 }
+
+@media (max-width: 580px) {
+    main {
+        overflow: hidden;
+        flex-direction: column;
+        background-image: url("./assets/splash-bkg.jpg");        
+        background-size: cover;
+        background-position: bottom;
+    }
+    .splash {
+        width: 100%;
+        background-image: none;
+    }
+    .logo-box {
+        margin: 0;
+        background-color: transparent;
+    }
+    .form-container {
+        background-color: transparent;
+    }
+
+    .form-footer {
+        color: white;
+    }
+
+    .form-footer a {
+        color: var(--light-bkg-color)
+    }
+
+    .form-container form {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .logo-box {
+        height: 20vh;
+    }
+
+    .logo {
+        height: inherit;
+    }
+
+    .logo img {
+        height: 70%;
+    }
+}
