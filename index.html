@@ -26,7 +26,6 @@
                         <h1>Odin</h1>
                     </div>
                 </div>
-                
             </section>
             <section class="form-container">
                 <div class="form-header">
@@ -37,37 +36,49 @@
                     </p>
                     <p>You know you want to.</p>
                 </div>
-                <form action="">
+                <form action="" id="login-form">
                     <h3>Let's do this</h3>
-                    <fieldset>
-                        <label for="first-name">First name</label>
-                        <input type="text" id="first-name" placeholder="Thor" />
-                        <label for="last-name">Last name</label>
-                        <input
-                            type="text"
-                            id="last-name"
-                            placeholder="Odinson"
-                        />
-                    </fieldset>
-                    <fieldset>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" />
-                        <label for="phone">Phone number</label>
-                        <input type="tel" id="phone" />
-                    </fieldset>
-                    <fieldset>
-                        <label for="password">Password</label>
-                        <input type="password" id="password" />
-                        <label for="pass-confirmation">Confirm password</label>
-                        <input type="password" id="pass-confirmation" />
-                    </fieldset>
-                    <div class="form-footer">
-                        <input type="submit" />
-                        <p class="redirect-login">
-                            Already have an account? <a>Log in</a>
-                        </p>
+                    <div class="fields">
+                        <fieldset>
+                            <label for="first-name">First name</label>
+                            <input
+                                type="text"
+                                id="first-name"
+                                placeholder="Thor"
+                            />
+                            <label for="last-name">Last name</label>
+                            <input
+                                type="text"
+                                id="last-name"
+                                placeholder="Odinson"
+                            />
+                        </fieldset>
+                        <fieldset>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" />
+                            <label for="phone">Phone number</label>
+                            <input type="tel" id="phone" />
+                        </fieldset>
+                        <fieldset>
+                            <label for="password">Password</label>
+                            <input type="password" id="password" />
+                            <label for="pass-confirmation"
+                                >Confirm password</label
+                            >
+                            <input type="password" id="pass-confirmation" />
+                        </fieldset>
                     </div>
                 </form>
+                <div class="form-footer">
+                    <input
+                        type="submit"
+                        form="login-form"
+                        value="Create Account"
+                    />
+                    <p class="redirect-login">
+                        Already have an account? <a>Log in</a>
+                    </p>
+                </div>
             </section>
         </main>
     </body>
