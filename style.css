@@ -38,3 +38,7 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.form-container {
+    background-color: rgb(253, 251, 253);
+}
